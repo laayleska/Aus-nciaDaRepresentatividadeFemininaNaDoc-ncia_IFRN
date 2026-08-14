@@ -1,0 +1,158 @@
+{% extends 'fragments/base.html' %}
+{% load static %}
+
+{% block title %}Início | Representatividade Feminina na Docência IFRN{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+                <span class="hero-badge mb-3">
+                    <i class="fa-solid fa-graduation-cap me-1"></i> Projeto de Pesquisa & TCC
+                </span>
+                <h1 class="display-5 fw-bold text-dark mb-3">
+                    A Ausência da Representatividade Feminina na Docência no IFRN
+                </h1>
+                <p class="lead text-secondary mb-4">
+                    Uma investigação sobre a equidade de gênero, distribuição de docentes por áreas do conhecimento e os desafios da presença feminina no ensino técnico e superior da rede federal.
+                </p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="#sobre" class="btn btn-purple btn-lg">
+                        <i class="fa-solid fa-book-open me-2"></i>Conhecer a Pesquisa
+                    </a>
+                    <a href="#indicadores" class="btn btn-outline-secondary btn-lg">
+                        <i class="fa-solid fa-chart-pie me-2"></i>Ver Indicadores
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="bg-white p-4 rounded-4 shadow-sm border">
+                    <h5 class="fw-bold mb-3 text-purple">
+                        <i class="fa-solid fa-circle-info me-2"></i>Resumo dos Objetivos
+                    </h5>
+                    <ul class="list-unstyled d-flex flex-column gap-3 mb-0 text-secondary">
+                        <li class="d-flex align-items-start gap-2">
+                            <i class="fa-solid fa-check text-success mt-1"></i>
+                            Mapear o percentual de professoras nos campi do IFRN.
+                        </li>
+                        <li class="d-flex align-items-start gap-2">
+                            <i class="fa-solid fa-check text-success mt-1"></i>
+                            Analisar a disparidade nas disciplinas STEM (Exatas e Tecnológicas).
+                        </li>
+                        <li class="d-flex align-items-start gap-2">
+                            <i class="fa-solid fa-check text-success mt-1"></i>
+                            Identificar fatores históricos e institucionais da sub-representação.
+                        </li>
+                        <li class="d-flex align-items-start gap-2">
+                            <i class="fa-solid fa-check text-success mt-1"></i>
+                            Propor diretrizes para incentivo à igualdade no ambiente acadêmico.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Métricas e Indicadores Rápidos -->
+<section id="indicadores" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Indicadores da Pesquisa</h2>
+            <p class="text-secondary">Dados preliminares levantados durante o desenvolvimento do TCC</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="stat-card text-center">
+                    <div class="stat-number mb-1">-- %</div>
+                    <h6 class="fw-semibold text-dark">Docentes Femininas nas Exatas</h6>
+                    <p class="small text-secondary mb-0">Percentual estimado em áreas de Engenharia, TI e Matemática.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat-card text-center">
+                    <div class="stat-number stat-number-green mb-1">22</div>
+                    <h6 class="fw-semibold text-dark">Campi Analisados</h6>
+                    <p class="small text-secondary mb-0">Mapeamento abrangendo as diferentes unidades do IFRN.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat-card text-center">
+                    <div class="stat-number mb-1">Quali-Quanti</div>
+                    <h6 class="fw-semibold text-dark">Metodologia Utilizada</h6>
+                    <p class="small text-secondary mb-0">Combinação de análise de dados públicos e questionários.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Eixos de Análise -->
+<section id="sobre" class="py-5 bg-white border-top border-bottom">
+    <div class="container">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-6">
+                <h2 class="fw-bold text-dark">Eixos do Estudo</h2>
+                <p class="text-secondary">Entenda como a pesquisa está estruturada para abordar a temática no IFRN.</p>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="p-4 border rounded-3 h-100 bg-light">
+                    <div class="feature-icon bg-purple-subtle">
+                        <i class="fa-solid fa-venus"></i>
+                    </div>
+                    <h5 class="fw-bold mb-2">1. Trajetória Histórica</h5>
+                    <p class="text-secondary small">
+                        Estudo da evolução da presença feminina no corpo docente da instituição desde a ETFRN/CEFET até a consolidação como IFRN.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="p-4 border rounded-3 h-100 bg-light">
+                    <div class="feature-icon bg-green-subtle">
+                        <i class="fa-solid fa-microscope"></i>
+                    </div>
+                    <h5 class="fw-bold mb-2">2. Segregação Por Áreas</h5>
+                    <p class="text-secondary small">
+                        Aprofundamento sobre o efeito "teto de vidro" e a concentração de professoras em áreas de Humanas vs. Exatas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="p-4 border rounded-3 h-100 bg-light">
+                    <div class="feature-icon bg-purple-subtle">
+                        <i class="fa-solid fa-users-line"></i>
+                    </div>
+                    <h5 class="fw-bold mb-2">3. Impacto na Formação</h5>
+                    <p class="text-secondary small">
+                        Como a presença ou ausência de professoras inspira e impacta a permanência de alunas nos cursos técnicos e superiores.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção de Contato -->
+<section id="contato" class="py-5 bg-light">
+    <div class="container">
+        <div class="bg-white p-5 rounded-4 border shadow-sm text-center">
+            <i class="fa-solid fa-comments text-purple fs-1 mb-3"></i>
+            <h3 class="fw-bold">É docente do IFRN ou pesquisador(a)?</h3>
+            <p class="text-secondary mb-4">
+                Seu relato ou contribuição é fundamental para o fortalecimento deste estudo. Entre em contato para saber mais ou participar dos questionários.
+            </p>
+            <a href="mailto:seu-email@ifrn.edu.br" class="btn btn-purple">
+                <i class="fa-solid fa-envelope me-2"></i>Enviar Mensagem
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}
